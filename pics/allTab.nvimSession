@@ -1,0 +1,373 @@
+let SessionLoad = 1
+let s:so_save = &g:so | let s:siso_save = &g:siso | setg so=0 siso=0 | setl so=-1 siso=-1
+let v:this_session=expand("<sfile>:p")
+let NERDTreeMapPreviewSplit = "gi"
+let NERDTreeMapCloseChildren = "X"
+let NERDTreeShowHidden =  1 
+let EasyMotion_off_screen_search =  1 
+let NERDTreeMapCloseDir = "x"
+let EasyMotion_enter_jump_first =  0 
+let NERDTreeSortHiddenFirst =  1 
+let VM_mouse_mappings =  1 
+let NERDTreeMinimalUI =  1 
+let NERDUsePlaceHolders =  1 
+let NERDTreeMapRefresh = "r"
+let WebDevIconsNerdTreeGitPluginForceVAlign =  1 
+let NERDTreeRespectWildIgnore =  0 
+let NERDTreeAutoDeleteBuffer =  0 
+let EasyMotion_smartcase =  0 
+let EasyMotion_hl_group_target = "EasyMotionTarget"
+let NERDTreeBookmarksFile = "/home/dmfk/.NERDTreeBookmarks"
+let NERDTreeMapToggleHidden = "I"
+let NERDTreeWinSize =  31 
+let NERDTreeMenuUp = "k"
+let DevIconsEnableFoldersOpenClose =  0 
+let NERDTreeHighlightFolders =  1 
+let NERDTreeUseTCD =  0 
+let EasyMotion_move_highlight =  1 
+let NERDRemoveExtraSpaces =  0 
+let DevIconsEnableFolderExtensionPatternMatching =  0 
+let EasyMotion_startofline =  1 
+let DevIconsEnableDistro =  1 
+let NERDTreeMapPreview = "go"
+let EasyMotion_do_mapping =  1 
+let NERDTreeCascadeSingleChildDir =  1 
+let EasyMotion_ignore_exception =  0 
+let Taboo_tabs = ""
+let EasyMotion_use_upper =  0 
+let NERDTreeNotificationThreshold =  100 
+let NERDTreeMapActivateNode = "o"
+let NERDTreeMapCustomOpen = "<CR>"
+let NERDTreeHighlightFoldersFullName =  1 
+let EasyMotion_hl_inc_search = "EasyMotionIncSearch"
+let NERDTreeWinPos = "left"
+let NERDTreeDirArrowExpandable = "▸"
+let WebDevIconsUnicodeDecorateFileNodes =  1 
+let NERDCommentEmptyLines =  0 
+let NERDTreeMapMenu = "m"
+let DevIconsEnableFolderPatternMatching =  1 
+let EasyMotion_space_jump_first =  0 
+let NERDTreeStatusline = "%{exists('b:NERDTree')?b:NERDTree.root.path.str():''}"
+let EasyMotion_use_regexp =  1 
+let NERDTreeMapOpenInTabSilent = "T"
+let NERDTreeMapHelp = "?"
+let VM_default_mappings =  1 
+let NERDTreeMapJumpParent = "p"
+let NERDTreeMapToggleFilters = "f"
+let VM_persistent_registers =  0 
+let WebDevIconsUnicodeDecorateFolderNodesDefaultSymbol = ""
+let NERDTreeExactMatchHighlightFullName =  1 
+let NERDTreeLimitedSyntax =  1 
+let NERDTreeMapJumpPrevSibling = "<C-k>"
+let WebDevIconsTabAirLineAfterGlyphPadding = ""
+let NERDTreeNodeDelimiter = ""
+let NERDTreeShowBookmarks =  0 
+let NERDMenuMode =  3 
+let NERDDefaultNesting =  1 
+let DevIconsArtifactFixChar = " "
+let WebDevIconsNerdTreeAfterGlyphPadding = " "
+let NERDTreeMouseMode =  1 
+let NERDTreeRemoveDirCmd = "rm -rf "
+let VM_highlight_matches = "underline"
+let EasyMotion_add_search_history =  1 
+let NERDTreeChDirMode =  0 
+let EasyMotion_do_shade =  1 
+let NERDTreeCreatePrefix = "silent"
+let EasyMotion_grouping =  1 
+let WebDevIconsUnicodeDecorateFileNodesDefaultSymbol = ""
+let NERDTreeAutoCenterThreshold =  3 
+let NERDTreeShowFiles =  1 
+let NERDToggleCheckAllLines =  0 
+let NERDCreateDefaultMappings =  1 
+let NERDTreeMapOpenSplit = "i"
+let NERDTreeGitStatusUpdateOnCursorHold =  1 
+let EasyMotion_skipfoldedline =  1 
+let NERDTreeCaseSensitiveSort =  0 
+let NERDTreeHijackNetrw =  1 
+let NERDSpaceDelims =  1 
+let DevIconsEnableNERDTreeRedraw =  0 
+let NERDTreeShowLineNumbers =  0 
+let NERDTreeBookmarksSort =  1 
+let NERDTreeHighlightCursorline =  1 
+let WebDevIconsUnicodeByteOrderMarkerDefaultSymbol = ""
+let NERDLPlace = "[>"
+let EasyMotion_use_migemo =  0 
+let DevIconsAppendArtifactFix =  0 
+let NERDDefaultAlign = "left"
+let NERDTreeMapOpenInTab = "t"
+let EasyMotion_show_prompt =  1 
+let EasyMotion_re_line_anywhere = "\\v(<.|^$)|(.>|^$)|(\\l)\\zs(\\u)|(_\\zs.)|(#\\zs.)"
+let WebDevIconsUnicodeDecorateFolderNodes =  1 
+let EasyMotion_re_anywhere = "\\v(<.|^$)|(.>|^$)|(\\l)\\zs(\\u)|(_\\zs.)|(#\\zs.)"
+let NERDTreeMapCWD = "CD"
+let NERDTreeNaturalSort =  0 
+let EasyMotion_verbose =  1 
+let WebDevIconsNerdTreeBeforeGlyphPadding = " "
+let NERDTreeMenuDown = "j"
+let NERDTreeMapPreviewVSplit = "gs"
+let WebDevIconsUnicodeDecorateFolderNodesExactMatches =  1 
+let NERDTreeMapUpdir = "u"
+let WebDevIconsUnicodeDecorateFolderNodesSymlinkSymbol = ""
+let NERDTreeMapJumpRoot = "P"
+let NERDCommentWholeLinesInVMode =  0 
+let EasyMotion_hl2_first_group_target = "EasyMotionTarget2First"
+let NERDTreeGlyphReadOnly = "RO"
+let EasyMotion_disable_two_key_combo =  0 
+let NERDTreeMapChdir = "cd"
+let NERDRPlace = "<]"
+let NERDTreeMapToggleZoom = "A"
+let NERDTreeMarkBookmarks =  1 
+let NERDTreeMinimalMenu =  0 
+let NERDTreeMapRefreshRoot = "R"
+let EasyMotion_cursor_highlight =  1 
+let NERDSuppressWarnings =  0 
+let NERDRemoveAltComs =  1 
+let NERDTreeAutoCenter =  1 
+let NERDTreeCascadeOpenSingleChildDir =  1 
+let NERDTreeFileExtensionHighlightFullName =  1 
+let EasyMotion_hl2_second_group_target = "EasyMotionTarget2Second"
+let NERDTreeMapOpenVSplit = "s"
+let EasyMotion_hl_group_shade = "EasyMotionShade"
+let NERDTreeMapJumpLastChild = "J"
+let NERDTrimTrailingWhitespace =  1 
+let NERDTreeMapDeleteBookmark = "D"
+let EasyMotion_hl_move = "EasyMotionMoveHL"
+let NERDBlockComIgnoreEmpty =  0 
+let NERDDisableTabsInBlockComm =  0 
+let NERDTreeMapJumpNextSibling = "<C-j>"
+let VM_check_mappings =  1 
+let EasyMotion_inc_highlight =  1 
+let NERDTreeUpdateOnCursorHold =  1 
+let NERDTreeCopyCmd = "cp -r "
+let NERDTreeMapQuit = "q"
+let NERDTreeMapChangeRoot = "C"
+let NERDCompactSexyComs =  1 
+let NERDTreeSortDirs =  1 
+let NERDTreeMapToggleFiles = "F"
+let EasyMotion_keys = "asdghklqwertyuiopzxcvbnmfj;"
+let NERDTreePatternMatchHighlightFullName =  1 
+let NERDAllowAnyVisualDelims =  1 
+let NERDTreeDirArrows =  1 
+let EasyMotion_force_csapprox =  0 
+let EasyMotion_loaded =  1 
+let EasyMotion_hl_inc_cursor = "EasyMotionIncCursor"
+let NERDTreeMapOpenExpl = "e"
+let NERDTreeMapJumpFirstChild = "K"
+let NERDTreeDirArrowCollapsible = "▾"
+let NERDTreeMapOpenRecursively = "O"
+let NERDTreeMapToggleBookmarks = "B"
+let DevIconsDefaultFolderOpenSymbol = ""
+let WebDevIconsTabAirLineBeforeGlyphPadding = " "
+let WebDevIconsUnicodeGlyphDoubleWidth =  1 
+let NERDTreeMapUpdirKeepOpen = "U"
+let EasyMotion_landing_highlight =  0 
+let NERDTreeQuitOnOpen =  0 
+let EasyMotion_prompt = "Search for {n} character(s): "
+silent only
+silent tabonly
+cd ~/D/Documents/Programming/React/pics
+if expand('%') == '' && !&modified && line('$') <= 1 && getline(1) == ''
+  let s:wipebuf = bufnr('%')
+endif
+set shortmess=aoO
+badd +1 src/index.js
+badd +1 src/components/App.js
+badd +16 src/components/ImageCard.js
+badd +6 src/components/ImageList.css
+badd +1 src/components/ImageList.js
+badd +1 src/components/SearchBar.js
+badd +1 src/api/unsplash.js
+argglobal
+%argdel
+tabnew
+tabnew
+tabnew
+tabnew
+tabnew
+tabnew
+tabrewind
+edit src/index.js
+argglobal
+setlocal fdm=syntax
+setlocal fde=0
+setlocal fmr={{{,}}}
+setlocal fdi=#
+setlocal fdl=1
+setlocal fml=1
+setlocal fdn=20
+setlocal fen
+let s:l = 1 - ((0 * winheight(0) + 24) / 49)
+if s:l < 1 | let s:l = 1 | endif
+keepjumps exe s:l
+normal! zt
+keepjumps 1
+normal! 0
+tabnext
+edit src/api/unsplash.js
+argglobal
+setlocal fdm=syntax
+setlocal fde=0
+setlocal fmr={{{,}}}
+setlocal fdi=#
+setlocal fdl=0
+setlocal fml=1
+setlocal fdn=20
+setlocal fen
+let s:l = 1 - ((0 * winheight(0) + 24) / 49)
+if s:l < 1 | let s:l = 1 | endif
+keepjumps exe s:l
+normal! zt
+keepjumps 1
+normal! 0
+tabnext
+edit src/components/SearchBar.js
+let s:save_splitbelow = &splitbelow
+let s:save_splitright = &splitright
+set splitbelow splitright
+wincmd _ | wincmd |
+vsplit
+1wincmd h
+wincmd w
+let &splitbelow = s:save_splitbelow
+let &splitright = s:save_splitright
+wincmd t
+let s:save_winminheight = &winminheight
+let s:save_winminwidth = &winminwidth
+set winminheight=0
+set winheight=1
+set winminwidth=0
+set winwidth=1
+exe 'vert 1resize ' . ((&columns * 105 + 105) / 211)
+exe 'vert 2resize ' . ((&columns * 105 + 105) / 211)
+argglobal
+setlocal fdm=syntax
+setlocal fde=0
+setlocal fmr={{{,}}}
+setlocal fdi=#
+setlocal fdl=3
+setlocal fml=1
+setlocal fdn=20
+setlocal fen
+let s:l = 1 - ((0 * winheight(0) + 24) / 49)
+if s:l < 1 | let s:l = 1 | endif
+keepjumps exe s:l
+normal! zt
+keepjumps 1
+normal! 0
+wincmd w
+argglobal
+if bufexists("/usr/share/nvim/runtime/doc/spell.txt") | buffer /usr/share/nvim/runtime/doc/spell.txt | else | edit /usr/share/nvim/runtime/doc/spell.txt | endif
+if &buftype ==# 'terminal'
+  silent file /usr/share/nvim/runtime/doc/spell.txt
+endif
+balt src/components/SearchBar.js
+setlocal fdm=manual
+setlocal fde=0
+setlocal fmr={{{,}}}
+setlocal fdi=#
+setlocal fdl=0
+setlocal fml=1
+setlocal fdn=20
+setlocal nofen
+silent! normal! zE
+let &fdl = &fdl
+let s:l = 210 - ((48 * winheight(0) + 24) / 49)
+if s:l < 1 | let s:l = 1 | endif
+keepjumps exe s:l
+normal! zt
+keepjumps 210
+normal! 067|
+wincmd w
+2wincmd w
+exe 'vert 1resize ' . ((&columns * 105 + 105) / 211)
+exe 'vert 2resize ' . ((&columns * 105 + 105) / 211)
+tabnext
+edit src/components/ImageList.js
+argglobal
+setlocal fdm=syntax
+setlocal fde=0
+setlocal fmr={{{,}}}
+setlocal fdi=#
+setlocal fdl=3
+setlocal fml=1
+setlocal fdn=20
+setlocal fen
+let s:l = 1 - ((0 * winheight(0) + 24) / 49)
+if s:l < 1 | let s:l = 1 | endif
+keepjumps exe s:l
+normal! zt
+keepjumps 1
+normal! 0
+tabnext
+edit src/components/ImageList.css
+argglobal
+setlocal fdm=syntax
+setlocal fde=0
+setlocal fmr={{{,}}}
+setlocal fdi=#
+setlocal fdl=1
+setlocal fml=1
+setlocal fdn=20
+setlocal fen
+let s:l = 6 - ((5 * winheight(0) + 24) / 49)
+if s:l < 1 | let s:l = 1 | endif
+keepjumps exe s:l
+normal! zt
+keepjumps 6
+normal! 053|
+tabnext
+edit src/components/ImageCard.js
+argglobal
+setlocal fdm=syntax
+setlocal fde=0
+setlocal fmr={{{,}}}
+setlocal fdi=#
+setlocal fdl=3
+setlocal fml=1
+setlocal fdn=20
+setlocal fen
+3
+normal! zo
+15
+normal! zo
+20
+normal! zo
+let s:l = 16 - ((15 * winheight(0) + 24) / 49)
+if s:l < 1 | let s:l = 1 | endif
+keepjumps exe s:l
+normal! zt
+keepjumps 16
+normal! 039|
+if exists(':tcd') == 2 | tcd ~/D/Documents/Programming/React/pics | endif
+tabnext
+edit ~/D/Documents/Programming/React/pics/src/components/App.js
+argglobal
+setlocal fdm=syntax
+setlocal fde=0
+setlocal fmr={{{,}}}
+setlocal fdi=#
+setlocal fdl=0
+setlocal fml=1
+setlocal fdn=20
+setlocal fen
+let s:l = 1 - ((0 * winheight(0) + 24) / 49)
+if s:l < 1 | let s:l = 1 | endif
+keepjumps exe s:l
+normal! zt
+keepjumps 1
+normal! 0
+tabnext 3
+if exists('s:wipebuf') && len(win_findbuf(s:wipebuf)) == 0&& getbufvar(s:wipebuf, '&buftype') isnot# 'terminal'
+  silent exe 'bwipe ' . s:wipebuf
+endif
+unlet! s:wipebuf
+set winheight=1 winwidth=20 shortmess=filnxtToOFI
+let s:sx = expand("<sfile>:p:r")."x.vim"
+if filereadable(s:sx)
+  exe "source " . fnameescape(s:sx)
+endif
+let &g:so = s:so_save | let &g:siso = s:siso_save
+nohlsearch
+doautoall SessionLoadPost
+unlet SessionLoad
+" vim: set ft=vim :
